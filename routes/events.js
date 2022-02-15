@@ -8,7 +8,7 @@ const { isDate } = require("../helpers/isDate");
 
 const router = Router();
 
-//todas tienes que pasar por la validación del JWT
+//todas tienes que pasar por la validación de JWT
 router.use(validateJWT);
 
 router.get('/', getEvent);
